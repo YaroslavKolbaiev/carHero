@@ -12,7 +12,7 @@ onClickOutside(emailRef, () => (isEmail.value = false), { ignore: [phoneRef] });
   <div class="bg-slate-800 h-24 flex flex-col items-center gap-4 py-2 relative">
     <h4 class="text-white text-2xl">AutoHero</h4>
     <div class="flex gap-5">
-      <a href="">
+      <a href="https://github.com/YaroslavKolbaiev/carHero">
         <Icon
           class="bg-white rounded-full border hover:scale-105 transition duration-200 ease"
           size="1.75rem"
