@@ -30,6 +30,7 @@ const user = useSupabaseUser();
         :alt="car.name"
         width="220px"
         loading="lazy"
+        placeholder
       />
       <div class="p-4 flex flex-col">
         <div>

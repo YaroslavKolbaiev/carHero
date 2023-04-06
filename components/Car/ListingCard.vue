@@ -14,6 +14,8 @@ const { supabaseStorageUrl } = useRuntimeConfig();
         :src="`${supabaseStorageUrl}${listing.image}`"
         :alt="listing.name"
         width="240px"
+        loading="lazy"
+        placeholder
       />
       <div class="p-3">
         <h1 class="text-lg md:text-2xl">{{ listing.name }}</h1>

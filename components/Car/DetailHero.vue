@@ -17,7 +17,8 @@ const { supabaseStorageUrl } = useRuntimeConfig();
       :src="`${supabaseStorageUrl}${selectedCar.image}`"
       width="100%"
       :alt="selectedCar.name"
-      preload
+      loading="lazy"
+      :placeholder="`${supabaseStorageUrl}${selectedCar.image}`"
     />
     <h1 class="mt-10 text-4xl">{{ selectedCar.name }}</h1>
     <div class="text-slate-500 flex text-lg mt-3 border-b pb-5 justify-between">
