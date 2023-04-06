@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useCars } from '~~/composables/useCars';
+
 const {
   params: { city },
 } = useRoute();

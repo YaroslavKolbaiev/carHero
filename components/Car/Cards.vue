@@ -16,14 +16,12 @@ const handleFavorite = (id) => {
 
 <template>
   <div class="grow">
-    <ClientOnly>
-      <CarCard
-        v-for="car in cars"
-        :key="car.id"
-        :car="car"
-        @favor="handleFavorite"
-        :favorite="car.id in favorite"
-      />
-    </ClientOnly>
+    <CarCard
+      v-for="car in cars"
+      :key="car.id"
+      :car="car"
+      @favor="handleFavorite"
+      :favorite="car.id in favorite"
+    />
   </div>
 </template>
