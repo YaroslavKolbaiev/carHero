@@ -6,6 +6,7 @@ const {
 const errorMsg = ref("");
 const successMsg = ref("");
 const user = useSupabaseUser();
+const isLoading = ref(false);
 
 const message = reactive({
   name: "",
@@ -29,6 +30,7 @@ const isDisabled = computed(() => {
 });
 
 const onSubmit = async () => {
+  isLoading.value = true;
   errorMsg.value = "";
   successMsg.value = "";
   try {
@@ -39,9 +41,11 @@ const onSubmit = async () => {
     });
     successMsg.value = "Message sent !";
     resetMessage();
+    isLoading.value = false;
   } catch (error) {
     errorMsg.value = error.statusMessage;
     resetMessage();
+    isLoading.value = false;
   }
 };
 </script>
@@ -76,10 +80,12 @@ const onSubmit = async () => {
       ></textarea>
     </div>
     <button
+      :disabled="isDisabled"
       @click="onSubmit"
       class="bg-blue-400 text-white px-10 py-3 rounded mt-4"
     >
-      Submit
+      <Icon v-if="isLoading" name="svg-spinners:bars-rotate-fade" />
+      <p v-else>Submit</p>
     </button>
     <p
       v-if="errorMsg"
