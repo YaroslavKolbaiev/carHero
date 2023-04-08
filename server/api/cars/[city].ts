@@ -17,7 +17,6 @@ export default defineEventHandler(async (event) => {
 
   const filters: Filters = {
     city: params!.city.toLowerCase(),
-    // make: "",
     price: {},
   };
 
@@ -35,7 +34,5 @@ export default defineEventHandler(async (event) => {
 
   return await prisma.car.findMany({
     where: filters,
-    // skip: 1,
-    // take: 2,
   });
 });

@@ -6,6 +6,13 @@
       <div class="text-center w-1/2">
         <h1 class="text-8xl font-serif mb-10 text-white">Find your car</h1>
         <CarSearchBar />
+        <div class="mt-5">
+          <NuxtLink
+            class="text-white text-3xl underline hover:text-sky-200 transition duration-200 ease"
+            to="/cars"
+            >See all cars
+          </NuxtLink>
+        </div>
       </div>
     </div>
     <div class="z-1 absolute w-full h-full bg-black opacity-50"></div>

@@ -35,6 +35,5 @@ watch(
         </template>
       </NuxtErrorBoundary>
     </div>
-    <Spinner v-else />
   </div>
 </template>
