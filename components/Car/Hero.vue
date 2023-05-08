@@ -14,6 +14,7 @@
           </NuxtLink>
         </div> -->
         <div class="text-white mt-10">Will be carousel here</div>
+        <Carousel />
       </div>
     </div>
     <div class="z-1 absolute w-full h-full bg-black opacity-50"></div>
