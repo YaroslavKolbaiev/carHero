@@ -5,15 +5,7 @@
     <div class="z-10 w-full absolute h-full flex justify-center pt-20">
       <div class="text-center w-1/2">
         <h1 class="text-8xl font-serif mb-10 text-white">Find your car</h1>
-        <CarSearchBar />
-        <!-- <div class="mt-5">
-          <NuxtLink
-            class="text-white text-3xl underline hover:text-sky-200 transition duration-200 ease"
-            to="/cars"
-            >See all cars
-          </NuxtLink>
-        </div> -->
-        <div class="text-white mt-10">Will be carousel here</div>
+        <CarSearchBar class="mb-10" />
         <Carousel />
       </div>
     </div>
