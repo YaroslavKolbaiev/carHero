@@ -14,7 +14,7 @@ const searchHanlder = () => {
 
 <template>
   <div
-    class="font-serif text-2xl rounded-full bg-white flex justify-between overflow-hidden drop-shadow-2xl mx-auto"
+    class="mb-20 font-serif text-2xl rounded-full bg-white flex justify-between overflow-hidden drop-shadow-md mx-auto"
   >
     <input
       v-model="search"

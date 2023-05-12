@@ -23,7 +23,7 @@ const breakpoints = {
 </script>
 
 <template>
-  <carousel :breakpoints="breakpoints">
+  <carousel class="mb-20" :breakpoints="breakpoints">
     <slide v-for="slide in data" :key="slide.id">
       <div class="border-4 border-transparent">
         <nuxt-img
