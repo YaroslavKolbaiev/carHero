@@ -27,7 +27,16 @@ watch(
             <code>{{ error }}</code>
             <button
               @click="error.value = null"
-              class="bg-sky-400 p-2 rounded-xl hover:bg-sky-500 text-white transition duration-200 ease"
+              class="
+                bg-sky-400
+                p-2
+                rounded-xl
+                hover:bg-sky-50
+                text-white
+                transition
+                duration-200
+                ease
+              "
             >
               Go Back
             </button>
