@@ -1,0 +1,59 @@
+<template>
+  <div
+    class="flex flex-col 2xl:grid grid-rows-4 grid-cols-4 gap-4 mb-20 2xl:h-96 drop-shadow-md"
+  >
+    <div
+      class="
+        h-48
+        2xl:h-full
+        col-start-1
+        col-end-3
+        row-start-1
+        row-end-5
+        rounded-lg
+        bg-cover
+        bg-center
+        bg-[url('https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')]
+      "
+    />
+    <div class="
+      h-48
+      2xl:h-full
+      col-start-3
+      col-end-4
+      row-start-1
+      row-end-3
+      rounded-lg
+      bg-cover
+      bg-center
+      bg-[url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')]
+    "
+    />
+    <div class="
+      h-48
+      2xl:h-full
+      col-start-4
+      col-end-5
+      row-start-1
+      row-end-3
+      rounded-lg
+      bg-cover
+      bg-center
+      bg-[url('https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=300&q=60')]
+    "
+    />
+    <div class="
+      h-48
+      2xl:h-full
+      col-start-3
+      col-end-5
+      row-start-3
+      row-end-5
+      rounded-lg
+      bg-cover
+      bg-center
+      bg-[url('https://images.unsplash.com/photo-1517672651691-24622a91b550?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80')]
+    "
+    />
+  </div>
+</template>

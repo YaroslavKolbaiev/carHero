@@ -14,7 +14,15 @@ onClickOutside(emailRef, () => (isEmail.value = false), { ignore: [phoneRef] });
     <div class="flex gap-5">
       <a href="https://github.com/YaroslavKolbaiev/carHero">
         <Icon
-          class="bg-white rounded-full border hover:scale-105 transition duration-200 ease"
+          class="
+            bg-white
+            rounded-full
+            border
+            hover:scale-105
+            transition
+            duration-200
+            ease
+          "
           size="1.75rem"
           name="logos:github-icon"
         />
@@ -23,13 +31,27 @@ onClickOutside(emailRef, () => (isEmail.value = false), { ignore: [phoneRef] });
         @click="isPhone = true"
         name="ph:phone-light"
         size="1.75rem"
-        class="text-white cursor-pointer hover:scale-105 transition duration-200 ease"
+        class="
+          text-white
+          cursor-pointer
+          hover:scale-105
+          transition
+          duration-200
+          ease
+        "
       />
       <Icon
         @click="isEmail = true"
         name="ph:envelope-open-light"
         size="1.75rem"
-        class="text-white cursor-pointer hover:scale-105 transition duration-200 ease"
+        class="
+          text-white
+          cursor-pointer
+          hover:scale-105
+          transition
+          duration-200
+          ease
+        "
       />
     </div>
     <Transition name="fade">

@@ -11,7 +11,18 @@ const user = useSupabaseUser();
 <template>
   <div
     v-if="car"
-    class="mx-auto grow mt-4 max-w-7xl space-y-4 px-4 xs:px-8 sm:px-10 lg:px-16 pb-16 w-3/5"
+    class="
+      mx-auto
+      grow mt-4
+      max-w-7xl
+      space-y-4
+      px-4
+      xs:px-8
+      sm:px-10
+      lg:px-16
+      pb-16
+      w-3/5
+    "
   >
     <CarDetailHero :selectedCar="car" />
     <CarAttributes :atribute="car.features" />
@@ -23,7 +34,16 @@ const user = useSupabaseUser();
       Car with id: <span class="text-red-600">{{ id }}</span> cant be found
     </p>
     <button
-      class="bg-blue-700 text-white py-2 px-4 rounded-lg hover:bg-blue-500 transition duration-200 ease"
+      class="
+        bg-blue-700
+        text-white
+        py-2 px-4
+        rounded-lg
+        hover:bg-blue-500
+        transition
+        duration-200
+        ease
+      "
       @click="router.back"
     >
       Go Back

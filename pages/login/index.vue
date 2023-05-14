@@ -82,21 +82,21 @@ watch(userCredentials, () => {
           <button
             v-if="isRegistered"
             @click="onLoginWithEmail"
-            class="text-white border h-full border-blue-700 transition duration-200 ease bg-blue-700 active:scale-95 active:transition-none font-medium rounded-xl dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="text-white border h-full border-blue-700 transition duration-200 ease bg-blue-700 hover:bg-blue-800 active:scale-95 active:transition-none font-medium rounded-xl dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             <p>Sign In</p>
           </button>
           <button
             v-else
             @click="onRegisterWithEamil"
-            class="text-white border h-full border-blue-700 transition duration-200 ease bg-blue-700 active:scale-95 active:transition-none font-medium rounded-xl dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="text-white border h-full border-blue-700 transition duration-200 ease bg-blue-700 hover:bg-blue-800 active:scale-95 active:transition-none font-medium rounded-xl dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             <p>Sign Up</p>
           </button>
           <button
             :disabled="isLoading"
             @click="onLoginWithWoogle"
-            class="bg-sky-100 rounded-xl active:opacity-75"
+            class="bg-sky-100 rounded-xl active:opacity-75 hover:bg-sky-200 transition duration-200 ease"
           >
             <Icon name="logos:google" size="5rem" />
           </button>

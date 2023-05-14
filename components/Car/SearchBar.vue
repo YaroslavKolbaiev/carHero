@@ -14,7 +14,17 @@ const searchHanlder = () => {
 
 <template>
   <div
-    class="font-serif text-2xl rounded-full bg-white flex justify-between overflow-hidden drop-shadow-2xl mx-auto"
+    class="
+      mb-20
+      font-serif
+      text-2xl
+      rounded-full
+      bg-white flex
+      justify-between
+      overflow-hidden
+      drop-shadow-md
+      mx-auto
+    "
   >
     <input
       v-model="search"
@@ -24,7 +34,17 @@ const searchHanlder = () => {
     />
     <button
       @click="searchHanlder"
-      class="bg-sky-500 w-32 md:w-44 text-white hover:bg-sky-400 transition duration-200 ease active:transition-none active:opacity-75"
+      class="
+        bg-sky-500
+        w-32 md:w-44
+        text-white
+        hover:bg-sky-400
+        transition
+        duration-200
+        ease
+        active:transition-none
+        active:opacity-75
+      "
     >
       <Icon v-if="isLoading" name="svg-spinners:bars-rotate-fade" />
       <p class="text-sm md:text-lg" v-else>Search</p>
