@@ -1,11 +1,11 @@
 <template>
   <div
-    class="flex flex-col 2xl:grid grid-rows-4 grid-cols-4 gap-4 mb-20 2xl:h-96 drop-shadow-md"
+    class="flex flex-col 2xl:grid grid-rows-4 grid-cols-4 gap-4 mb-20 lg:h-96 drop-shadow-md"
   >
     <div
       class="
         h-48
-        2xl:h-full
+        lg:h-full
         col-start-1
         col-end-3
         row-start-1
@@ -18,7 +18,7 @@
     />
     <div class="
       h-48
-      2xl:h-full
+      lg:h-full
       col-start-3
       col-end-4
       row-start-1
@@ -31,7 +31,7 @@
     />
     <div class="
       h-48
-      2xl:h-full
+      lg:h-full
       col-start-4
       col-end-5
       row-start-1
@@ -44,7 +44,7 @@
     />
     <div class="
       h-48
-      2xl:h-full
+      lg:h-full
       col-start-3
       col-end-5
       row-start-3
