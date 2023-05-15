@@ -24,7 +24,7 @@ const howDoesItWork = [
 <template>
   <div class="mb-20 drop-shadow-md">
     <h1 class="text-4xl font-bold text-white mb-5">How does it work</h1>
-    <div class="flex flex-col 2xl:flex-row gap-5">
+    <div class="flex flex-col lg:flex-row gap-5">
       <div
         v-for="item in howDoesItWork"
         :key="item.id"
